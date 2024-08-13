@@ -1,0 +1,12 @@
+<nav class="navbar">
+  <ul class="navbar_nav">
+    {% for item in items %}
+      <li class="navbar_nav_item">
+        <a class="navbar_nav_item_link" href="{{ item.href }}">{{ item.label }}</a>
+      </li>
+    {% endfor %}
+    <li class="navbar_btn">
+      <button class="navbar_btn_text">Get started</button>
+    </li>
+  </ul>
+</nav>

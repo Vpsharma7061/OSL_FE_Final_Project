@@ -1,0 +1,4 @@
+
+classname: 'btn_class'
+type: 'select'
+label: 'Click me'

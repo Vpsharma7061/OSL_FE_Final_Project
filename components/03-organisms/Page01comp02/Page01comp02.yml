@@ -1,0 +1,29 @@
+# Default configuration for the Card Molecule
+molecules:
+  - icon_class: "bi bi-activity"
+    card_text: "Nesciunt Mete"
+    header_class: "item-cyan"
+    card_url: "service-details.html"
+    para_text: "Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur."
+    para_class: "default-paragraph"
+
+  - icon_class: "bi bi-broadcast"
+    card_text: "Eosle Commodi"
+    header_class: "item-orange"
+    card_url: "service-details.html"
+    para_text: "Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem."
+    para_class: "default-paragraph"
+
+  - icon_class: "bi bi-easel"
+    card_text: "Ledo Markt"
+    header_class: "item-teal"
+    card_url: "service-details.html"
+    para_text: "Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti."
+    para_class: "default-paragraph"
+
+  - icon_class: "bi bi-bounding-box-circles"
+    card_text: "Asperiores"
+    header_class: "item-red"
+    card_url: "service-details.html"
+    para_text: "Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque."
+    para_class: "default-paragraph"

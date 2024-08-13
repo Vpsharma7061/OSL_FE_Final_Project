@@ -1,0 +1,16 @@
+navbar:
+  items:
+    - label: 'Home'
+      href: '#home'
+    - label: 'App Features'
+      href: '#appfeatures'
+    - label: 'Gallery'
+      href: '#gallery'
+    - label: 'Pricing'
+      href: '#pricing'
+    - label: 'F.A.Q'
+      href: '#faq'
+    - label: 'Dropdown'
+      href: '#dropdown'
+    - label: 'Contact'
+      href: '#contact'

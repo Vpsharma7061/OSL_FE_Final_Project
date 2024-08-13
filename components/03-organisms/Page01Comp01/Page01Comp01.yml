@@ -1,0 +1,28 @@
+
+ molecules:
+  - header_text: 'Welcome to Moderna'
+    header_class: 'h1'
+    para_text: 'Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.'
+    para_class: 'p1'
+    label: 'Read More'
+    btn_class: 'btn'
+    btn_link: '#about'
+    active: true
+
+  - header_text: 'Lorem Ipsum Dolor'
+    header_class: 'h1'
+    para_text: 'Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.'
+    para_class: 'p1'
+    label: 'Read More'
+    btn_class: 'btn'
+    btn_link: '#about'
+    active: true
+
+  - header_text: 'Sequi ea ut et est quaerat'
+    header_class: 'h1'
+    para_text: 'Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.'
+    para_class: 'p1'
+    label: 'Read More'
+    btn_class: 'btn'
+    link: '#about'
+    active: true

@@ -1,0 +1,19 @@
+
+              <div class="icon">
+               {% include "@atoms/Iconss/Iconss.twig" with {
+                     icon_class: icon_class
+               }%}
+              </div>
+
+                {% include "@atoms/HeadingWithAnchor/HeadingWithAnchor.twig" with {
+                      url: url,
+                      classname: 'heading_class',
+                      text: card_text
+               }%}
+
+                 {% include "@atoms/Paragraph/Paragraph.twig" with {
+                       paragraphtext: para_text,
+                       classname: 'para_class'
+                }%} 
+
+         

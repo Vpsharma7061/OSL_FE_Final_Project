@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-light"> 
+    <a href="#" class="navbar-brand p-0">
+        <h1 class="text-primary mb-0"><i class="fab fa-slack me-2"></i> LifeSure</h1>
+    </a>
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-expanded="false">
+        <span class="fa fa-bars"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbarCollapse" style="">
+        <div class="navbar-nav mx-0 mx-lg-auto">
+          {% include "@molecules/menus/_menu.twig" with {
+            menu_class: 'inline-menu',
+            items: inline_menu_items,
+          } %} 
+        </div>
+    </div>
+    <div>
+          <div class="nav-btn px-3">
+                                <button class="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                                <a href="#" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"> Get a Quote</a>
+                            </div>
+    </div>
+
+         
+</nav>

@@ -1,0 +1,16 @@
+.row{
+    padding:10px;
+    padding-left: 25px;
+    
+}
+.hello{
+    display: flex;
+    justify-content: space-between;
+    //flex-direction: row-reverse;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    //vertical-align: middle;
+}

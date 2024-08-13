@@ -1,0 +1,9 @@
+{# src/components/organisms/fancybox/fancy.twig #}
+<div class="gallery">
+  {% for item in gallery %}
+    <a data-fancybox="gallery" href="{{ item.src }}" data-caption="{{ item.caption }}">
+      <img src="{{ item.src }}" alt="{{ item.caption }}" class="img-thumbnail" />
+    </a>
+  {% endfor %}
+</div>
+

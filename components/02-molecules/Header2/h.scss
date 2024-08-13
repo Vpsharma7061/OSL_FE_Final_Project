@@ -1,0 +1,25 @@
+.title1{
+    align-items: centre;
+ 
+    &_text{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #5777ba;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+     &_para{
+        display: flex;
+        justify-content: center;
+        font-size: 16px "Open Sans",sans-serif;
+        color: #585A61;
+     
+ 
+     }
+    
+    }
+}

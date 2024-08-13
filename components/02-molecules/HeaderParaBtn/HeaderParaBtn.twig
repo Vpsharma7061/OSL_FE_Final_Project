@@ -1,0 +1,23 @@
+
+
+
+{% include "@atoms/Header/Header.twig" with {
+       text: header_text,
+       classname: 'header_class'
+}%}
+
+ {% include "@atoms/Paragraph/Paragraph.twig" with {
+        paragraphtext: para_text,
+        classname: 'Para_class'
+ }%}
+
+ {% include "@atoms/Mybutton/bt.twig" with {
+      classname: 'btn_class',
+      type: btn_type,
+      label: label
+
+         
+ }%}
+
+
+

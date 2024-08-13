@@ -1,0 +1,48 @@
+
+    <section id="hero" class="hero section dark-background">
+
+  <!-- Optional background image -->
+  <img src="https://bootstrapmade.com/demo/templates/Moderna/assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+  <div id="hero-carousel" class="carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+    <div class="container position-relative">
+
+      <div class="carousel-inner">
+        {% for molecule in molecules %}
+          <div class="carousel-item {% if molecule.active %}active{% endif %}">
+            <div class="carousel-container">
+              {% include "@molecules/HeaderParaBtn/HeaderParaBtn.twig" with {
+                header_text: molecule.header_text,
+                header_class: molecule.header_class,
+                para_text: molecule.para_text,
+                para_class: molecule.para_class,
+                btn_type: molecule.btn_type,
+                btn_class: molecule.btn_class,
+                label: molecule.label,
+                btn_link: molecule.btn_link
+              } %}
+            </div>
+          </div><!-- End Carousel Item -->
+        {% endfor %}
+      </div>
+
+      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+      <!-- Indicators -->
+ {# <ol class="carousel-indicators">
+ <li data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true"></li>
+ <li data-bs-target="#hero-carousel" data-bs-slide-to="1"class="active" aria-current="true"></li>
+ <li data-bs-target="#hero-carousel" data-bs-slide-to="2" class="active" aria-current="true"></li>
+ </ol> #}
+    </div>
+
+  </div>
+
+</section>

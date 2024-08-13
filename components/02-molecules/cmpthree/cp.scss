@@ -1,0 +1,37 @@
+
+  .col-md-8 {
+    padding-top: 1rem;
+    animation: fade-up 1s ease-in-out;
+
+    .myheading {
+      color: #47536e;
+      font: 32px Raleway, sans-serif;
+      margin: 0px 0px 8px;
+    }
+
+    .fst-italic {
+      color: #585A61;
+      font: 16px "Open Sans", sans-serif;
+      margin: 0px 0px 16px;
+    }
+
+    .li {
+      color: #585A61;
+      font: 16px "Open Sans", sans-serif;
+      margin: 0px 0px 10px;
+      padding: 8px;
+      list-style: none;
+
+      li {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+
+        i {
+          color: #0d6efd; 
+          margin-right: 8px;
+          font-size: 1.45rem; 
+        }
+      }
+    }
+  }

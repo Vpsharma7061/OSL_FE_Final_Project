@@ -1,0 +1,7 @@
+<div class="gallery1">
+  {% for item in images %}
+    <div class="slick-slide">
+      <img src="{{ item.src }}" alt="{{ item.alt }}" class="img-fluid" />
+    </div>
+  {% endfor %}
+</div>

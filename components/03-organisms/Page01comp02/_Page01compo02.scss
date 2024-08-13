@@ -1,0 +1,171 @@
+// Define color variables
+$cyan-color: #0dcaf0;
+$orange-color: #fd7e14;
+$teal-color: #20c997;
+$red-color: #df1529;
+
+// Define default colors for card background and text
+$card-background-color: #ffffff;
+$text-color: #000000; // Adjust text color if needed
+$header-color:#1e4356;
+$para-color:#555555;
+
+// Define fonts
+$header-font-family: 'Arial', sans-serif; // Replace with your desired font
+$paragraph-font-family: 'Georgia', serif; // Replace with your desired font
+
+
+// Main container styles
+.featured-services {
+  .container {
+    padding: 0 0px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -25px; // Adjust horizontal spacing
+    margin-right: -25px; // Adjust horizontal spacing
+  }
+
+  // Service item styles
+  .service-item {
+    background-color: $card-background-color;
+    box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    padding: 40px 5px;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    
+ 
+
+    // Icon styles
+    .icon {
+      margin: 0 auto;
+      width: 64px;
+      height: 64px;
+      display: flex;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+      transition: ease-in-out 0.3s;
+      position: relative;
+
+      i {
+        font-size: 28px;
+        transition: 0.5s;
+        position: relative;
+      }
+    }
+
+    
+    .heading_class {
+      font-family: $header-font-family;
+      font-weight: 700;
+      margin: 10px 0 15px 0;
+      font-size: 15px;
+      text-decoration: none !important; // Ensure no underline with !important
+      color: $header-color; // Set text color
+    }
+
+    .para_class {
+      font-family: $paragraph-font-family;
+      line-height: 24px;
+      font-size: 14px;
+      margin-bottom: 0;
+      color: $para-color; // Set text color
+      font-weight: 400;
+    }
+
+    &:hover {
+      box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  // Color variations for different service items
+  .item-cyan {
+    .icon {
+      background-color: color-mix(in srgb, $cyan-color 10%, white 95%);
+      i {
+        color: $cyan-color;
+      }
+    }
+
+    &:hover {
+      border-color: $cyan-color;
+
+      .icon {
+        background-color: $cyan-color;
+
+        i {
+          color: $text-color;
+        }
+      }
+    }
+  }
+
+  .item-orange {
+    .icon {
+      background-color: color-mix(in srgb, $orange-color 10%, white 95%);
+      i {
+        color: $orange-color;
+      }
+    }
+
+    &:hover {
+      border-color: $orange-color;
+
+      .icon {
+        background-color: $orange-color;
+
+        i {
+          color: $text-color;
+        }
+      }
+    }
+  }
+
+  .item-teal {
+    .icon {
+      background-color: color-mix(in srgb, $teal-color 10%, white 95%);
+      i {
+        color: $teal-color;
+      }
+    }
+
+    &:hover {
+      border-color: $teal-color;
+
+      .icon {
+        background-color: $teal-color;
+
+        i {
+          color: $text-color;
+        }
+      }
+    }
+  }
+
+  .item-red {
+    .icon {
+      background-color: color-mix(in srgb, $red-color 10%, white 95%);
+      i {
+        color: $red-color;
+      }
+    }
+
+    &:hover {
+      border-color: $red-color;
+
+      .icon {
+        background-color: $red-color;
+
+        i {
+          color: $text-color;
+        }
+      }
+    }
+  }
+}
