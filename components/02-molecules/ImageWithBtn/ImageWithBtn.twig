@@ -1,0 +1,9 @@
+
+<div class="col-lg-6 position-relative align-self-start aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+  {% include "@atoms/Imagess/Imagess.twig" with {
+    image_src: molecule.image_src,
+    image_alt: molecule.image_alt,
+    image_class: molecule.image_class
+  } %}
+  <a href="{{ molecule.video_url }}" class="glightbox pulsating-play-btn" data-fancybox="gallery"></a>
+</div>

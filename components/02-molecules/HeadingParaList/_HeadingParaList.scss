@@ -1,0 +1,49 @@
+/* Heading Styles */
+.heading_class{
+    font-family: 'Roboto', sans-serif; /* Example font-family, change as needed */
+    font-size: 1.70rem;
+    font-weight: 510;
+    color: #1e4356; /* Heading color, replace with desired color */
+    margin-bottom: 20px; /* Space below heading */
+  }
+  
+  /* Paragraph Styles */
+  .paraa_class {
+    font-family: 'Arial', sans-serif; /* Example font-family, change as needed */
+    font-size: 16px;
+    color: #555555; /* Paragraph text color, replace with desired color */
+    line-height: 1.6;
+    margin-bottom: 20px; /* Space below paragraph */
+  }
+
+  .para_class {
+    font-family: 'Arial', sans-serif; /* Example font-family, change as needed */
+    font-size: 16px;
+    color: #555555; /* Paragraph text color, replace with desired color */
+    line-height: 1.6;
+    margin-bottom: 20px; /* Space below paragraph */
+  }
+  
+  /* List Styles */
+  ul {
+    list-style-type: none; /* Hide default list dots */
+    padding-left: 0; /* Remove default padding */
+  
+    li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+  
+      i {
+        margin-right: 10px; /* Space between icon and text */
+        color: #68a4c4; /* Icon color */
+        font-size: 1.2em; /* Adjust icon size if needed */
+      }
+  
+      span {
+        font-size: 16px; /* Text size */
+        color: #555555; /* Text color */
+      }
+    }
+  }
+  

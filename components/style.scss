@@ -33,6 +33,7 @@
 @forward "01-atoms/Header/Header.scss";
 @forward "01-atoms/HeadingWithAnchor/HeadingWithAnchor.scss";
 @forward "01-atoms/Iconss/Iconss.scss";
+@forward "01-atoms/Imagess/Images.scss";
 
 
 // Molecules.
@@ -64,7 +65,8 @@
 @forward "02-molecules/cmpfive/cp.scss";
 @forward "02-molecules/cmpsix/ci.scss";
 @forward "02-molecules/HeaderParaBtn/HeaderParaBtn.scss";
-
+@forward "02-molecules/ImageWithBtn/ImageWithBtn.scss";
+@forward "02-molecules/HeadingParaList/HeadingParaList.scss";
 
 
 // Organisms.

@@ -3,9 +3,10 @@ molecule:
   image_alt: 'About Image'
   image_class: 'img-fluid'
   video_url: 'https://www.youtube.com/watch?v=Y7f98aduVJ8'
-  video_class: 'glightbox pulsating-play-btn'
   text: 'Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.'
+  heading_class: 'heading_class'
   para_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  para_class: 'para_class'
   list_items:
     - icon_class: 'bi bi-check2-all'
       text: 'Ullamco laboris nisi ut aliquip ex ea commodo consequat.'
@@ -13,10 +14,9 @@ molecule:
       text: 'Duis aute irure dolor in reprehenderit in voluptate velit.'
     - icon_class: 'bi bi-check2-all'
       text: 'Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.'
+  paraa_text: 'Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.'
+  paraa_class: 'para-class'
 
-additional_paragraph:
-  paragraphtext: 'Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.'
-  para_class: 'para-class'
 
-heading_class: 'heading-class'
-para_class: 'para-class'
+ 
+  

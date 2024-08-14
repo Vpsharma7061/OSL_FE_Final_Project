@@ -1,0 +1,25 @@
+<div class="col-lg-6 content aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+  {% include "@atoms/Mheading/m.twig" with {
+    text: molecule.text,
+    classname: 'heading_class'
+  } %}
+
+  {% include "@atoms/Paragraph/Paragraph.twig" with {
+    paragraphtext: molecule.para_text,
+    classname: 'para_class'
+  } %}
+
+  <ul>
+    {% for item in molecule.list_items %}
+      <li>
+        <i class="{{ item.icon_class }}"></i>
+        <span>{{ item.text }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% include "@atoms/Paragraph/Paragraph.twig" with {
+    paragraphtext: molecule.paraa_text,
+    classname: 'paraa_class'
+  } %} 
+</div>

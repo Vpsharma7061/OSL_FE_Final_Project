@@ -1,0 +1,5 @@
+molecule:
+  image_src: 'https://bootstrapmade.com/demo/templates/Moderna/assets/img/about.jpg'
+  image_alt: 'About Image'
+  image_class: 'img-fluid'
+  video_url: 'https://www.youtube.com/watch?v=Y7f98aduVJ8'
