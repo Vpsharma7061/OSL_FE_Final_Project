@@ -1,0 +1,30 @@
+<div class="row gy-4 align-items-center features-item">
+  <div class="col-md-5 d-flex align-items-center aos-init aos-animate" data-aos="zoom-out" data-aos-delay="100">
+      {% include "@atoms/Imagess/Imagess.twig" with {
+           image_src: molecule.img_src,
+           image_alt: molecule.img_alt,
+           image_class: molecule.img_class
+      } %}
+  </div>
+  
+  <div class="col-md-7 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+    {% include "@atoms/Header/Header.twig" with {
+        text: molecule.text,
+        classname: molecule.header_class
+    } %}
+
+    {% include "@atoms/Paragraph/Paragraph.twig" with {
+         paragraphtext: molecule.para_text,
+         classname: molecule.para_class
+    } %}
+
+    <ul>
+      {% for item in molecule.list_items %}
+        <li>
+          <i class="{{ item.icon_class }}"></i>
+          <span>{{ item.text }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

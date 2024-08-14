@@ -1,0 +1,18 @@
+molecule:
+  image_src: 'https://bootstrapmade.com/demo/templates/Moderna/assets/img/features-3.svg'
+  image_alt: 'Features Image'
+  image_class: 'img-fluid'
+
+  header_text: 'Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas'
+  header_class: 'header_class'
+
+  para_text: 'Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.'
+  para_class: 'para_class'
+
+  list_items:
+    - icon_class: 'bi bi-check'
+      text: 'Ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+    - icon_class: 'bi bi-check'
+      text: 'Duis aute irure dolor in reprehenderit in voluptate velit.'
+    - icon_class: 'bi bi-check'
+      text: 'Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.'
