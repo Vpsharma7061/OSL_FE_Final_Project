@@ -1,0 +1,14 @@
+
+  <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
+      {% for item in items %}
+        {% include "@molecules/StatsSection/StatsSection.twig" with {
+          start: item.start,
+          end: item.end,
+          duration: item.duration,
+          para_text: item.para_text,
+          para_class: item.para_class
+        } %}
+      {% endfor %}
+    </div>
+  </div>
